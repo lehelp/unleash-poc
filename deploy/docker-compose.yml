@@ -1,0 +1,24 @@
+version: '3.7'
+services:
+  unleash-proxy:
+    image: "unleashorg/unleash-proxy:v0.4.0"
+    env_file:
+      - unleash-proxy.env
+    ports:
+      - "127.0.0.1:4000:3000"
+    depends_on:
+      - unleash-server
+  unleash-server:
+    image: "unleashorg/unleash-server:4.1.4"
+    env_file:
+      - unleash-server.env
+    ports:
+      - "127.0.0.1:4242:4242" # admin:unleash4all
+    depends_on:
+      - postgres
+  postgres:
+    image: "postgres:11"
+    env_file:
+      - database.env
+    volumes:
+      - ./volumes/postgres:/var/lib/postgresql/data
