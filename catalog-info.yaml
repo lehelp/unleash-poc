@@ -6,6 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: lehelp/unleash-poc
     backstage.io/techdocs-ref: dir:.
+    backstage.io/adr-location: docs/adl
   tags:
     - javascript
     - typescript
