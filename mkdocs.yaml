@@ -1,0 +1,7 @@
+site_name: 'unleash-poc'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
