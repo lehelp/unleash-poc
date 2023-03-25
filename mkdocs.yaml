@@ -2,6 +2,7 @@ site_name: 'unleash-poc'
 
 nav:
   - Home: index.md
+  - Architecture Decision Log: adl/adr001.md
 
 plugins:
   - techdocs-core
