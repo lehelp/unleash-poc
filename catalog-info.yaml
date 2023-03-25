@@ -2,9 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: unleash-poc-backstage-test
+  description: This is a PoC for Unleash (feature-flags)
   annotations:
     github.com/project-slug: lehelp/unleash-poc
+  tags:
+    - javascript
+    - typescript
 spec:
-  type: component
+  type: webapp
   lifecycle: experimental
   owner: lehel.papacek
