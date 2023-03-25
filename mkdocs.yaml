@@ -1,9 +1,7 @@
 site_name: 'unleash-poc'
 
 nav:
-  - Home: README.md
-  
-docs_dir: .
+  - Home: index.md
 
 plugins:
   - techdocs-core
