@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: lehelp/unleash-poc
     backstage.io/techdocs-ref: dir:.
     backstage.io/adr-location: docs/adl
-    sonarqube.org/project-key: https://sonar.otresi.me/unleash-poc
+    sonarqube.org/project-key: unleash-poc
   tags:
     - javascript
     - typescript
